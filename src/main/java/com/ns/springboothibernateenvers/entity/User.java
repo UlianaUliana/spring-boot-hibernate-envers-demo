@@ -27,8 +27,4 @@ public class User extends BaseAuditLog {
 
     @Column(name="last_name")
     private String lastName;
-
-//    @Column(name = "created_date", nullable = false, updatable = false)
-//    @CreatedDate
-//    private Timestamp createdDate;
 }
